@@ -4,6 +4,8 @@
 
 Extremely simple dynamic script loader with promise API
 
+Companion to [dynamic-style](https://github.com/kayleepop/dynamic-style)
+
 ## Goals
 - Simple and readable source code
 - Small API
