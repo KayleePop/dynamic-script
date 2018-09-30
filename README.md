@@ -19,13 +19,13 @@ Extremely simple dynamic script loader with promise API
 const loadScript = require('dynamic-script')
 
 // url is set as <script src="${url}">
-loadScript('https://url.com/path')
+loadScript('https://url.com/script.js')
   .then(() => console.log('loaded successfully'))
   .catch(() => console.log('script failed to load'))
 
 // resolves with the appended script element
-const elem = await loadScript('https://url.com/path')
-elem.src // https://url.com/path
+const elem = await loadScript('https://url.com/script.js')
+elem.src // https://url.com/script.js
 ```
 
 Configure by passing a script element. It will be used instead of creating a new element.
@@ -34,5 +34,5 @@ Configure by passing a script element. It will be used instead of creating a new
 const scriptTag = document.createElement('script')
 script.async = false
 
-await loadScript('https://url.com/path', scriptTag)
+await loadScript('https://url.com/script.js', scriptTag)
 ```
