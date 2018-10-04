@@ -34,7 +34,7 @@ Configure by passing a script element. It will be used instead of creating a new
 
 ```js
 const scriptTag = document.createElement('script')
-script.async = false
+scriptTag.async = false
 
 await loadScript('https://url.com/script.js', scriptTag)
 ```
