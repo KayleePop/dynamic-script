@@ -23,6 +23,13 @@ test('custom script element should be appended if passed', async () => {
 })
 
 test('should resolve with script element', async () => {
+  const elem = await loadScript('/fixtures/windowString.js')
+
+  assert.equal(elem.constructor.name, 'HTMLScriptElement')
+  assert.equal(elem.tagName, 'SCRIPT')
+})
+
+test('should resolve with custom script element', async () => {
   const scriptElement = document.createElement('script')
   scriptElement.prop = 'penguin'
 
