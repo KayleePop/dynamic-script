@@ -1,6 +1,6 @@
 # dynamic-script
 
- [![Travis badge](https://travis-ci.org/KayleePop/dynamic-script.svg?branch=master)](https://travis-ci.org/KayleePop/dynamic-script) [![standard badge](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![npm](https://img.shields.io/npm/v/dynamic-script.svg)](https://www.npmjs.com/package/dynamic-script)
+ [![Node.js CI](https://github.com/KayleePop/dynamic-script/workflows/Node.js%20CI/badge.svg)](https://github.com/KayleePop/dynamic-script/actions) [![standard badge](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![npm](https://img.shields.io/npm/v/dynamic-script.svg)](https://www.npmjs.com/package/dynamic-script)
 
 Extremely simple dynamic script loader with promise API
 
