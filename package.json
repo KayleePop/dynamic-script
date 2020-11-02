@@ -28,7 +28,7 @@
     "browserify": "^17.0.0",
     "muggle-assert": "^1.1.0",
     "muggle-test": "^2.0.0",
-    "standard": "^15.0.0",
+    "standard": "^16.0.1",
     "tap-spec": "^5.0.0",
     "tape-run": "^8.0.0"
   }
